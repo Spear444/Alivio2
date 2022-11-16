@@ -1,0 +1,413 @@
+
+
+body{
+    margin: 0;
+    font-family:'lato', sans-serif;
+    font-weight: 500;
+    .bouton{
+        background-color: rgba(1, 153, 109, 1);
+        color: white;
+        padding: 0 50px;
+        border-radius: 4px;
+        height: 40px;
+        border: none; 
+        
+    }
+    header {
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            
+            ul {
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+                li{
+                    display: flex;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+            h1 {
+                color: rgba(1, 153, 109, 1);
+            }
+        }
+        div{
+            a{text-decoration: none;               
+
+            }
+              
+        }
+    }
+
+    #hero{
+        background-image: url("./images/hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+    #heroinfos{
+        @media only screen and (max-width: 768px) {
+            width: 80%;
+            flex-direction: column;
+            height: 100vh;
+        }
+        width: 80%;
+        margin: auto;
+        #allinfos{
+            display: flex;
+            align-content: center;
+            justify-content: flex-start;
+            width: 30%;
+            height: 75%;
+            flex-wrap: wrap;
+         h2{
+            font-family: 'georgia',serif;
+            font-size: 4em;
+            color:rgba(1, 153, 109, 1);
+           
+           }    
+          
+        
+    }
+    }
+    // howit
+    #howit{
+
+    #howitcont{
+        margin: 5% 10%;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width: 768px) {
+            width: 80%;
+           flex-direction: column;
+        }
+    }
+    #howitinfos{
+        width: 50%;
+    }
+    #spear{
+        width: 50%;
+    }
+    h4{
+        margin-top: 0%;
+        font-family: 'georgia', serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 79px;
+        color: rgba(1, 153, 109, 1);
+    }
+    #cards{
+        display: flex;
+        width: 80%;
+        margin: auto;       
+        justify-content: space-between;
+        @media only screen and (max-width: 768px) {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+                  
+        
+    }
+    .card{
+        width: 25%;
+        position: relative; 
+        margin: auto;
+         @media only screen and (max-width: 768px) {
+            width: 80%;
+            margin-bottom: 10%;
+        
+        }
+        .cardimg{
+           img{
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+                height: auto;
+            
+            }
+           }
+        }
+      
+
+        h5{
+            text-align: center;
+        font-family: 'georgia',serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        z-index: 0;
+        @media only screen and (max-width: 768px) {
+            text-align: left;
+            
+        }
+        
+        }
+        p{
+        font-family:'lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 150px;
+        }
+        span{
+            font-family: 'georgia', serif;
+            font-weight: 400;
+            font-size: 150px;
+            line-height: 225px;
+            color:rgba(1, 153, 109, 0.2);
+            position: absolute;
+            top: -11%;
+            z-index: -1;
+        }
+    }
+    }
+    #testimonial{
+        height: 120vh;
+        background-color: rgba(36, 88, 82, 1);
+        
+        
+
+        #testicont{
+            width: 100vh;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            height: 80vh;
+            @media only screen and (max-width: 768px) {
+                flex-direction: column;
+                width: 80%;
+                height: 100vh;
+            }
+
+            
+        }
+        
+        #testimonialleft{
+            width: 40%;
+            @media only screen and (max-width: 768px) {
+                flex-direction: column;
+                width: 80%;
+                
+            }
+            
+            h5{
+                font-family: 'georgia', serif;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 79px;
+                color: white;
+                
+
+            }
+            p{
+                font-family: 'lato',sans-serif;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 39px;
+                color: white;
+            }
+
+        }
+        #testimonialright{
+            width: 40%;
+            @media only screen and (max-width: 768px) {
+                width: 80%;
+                height: 100vh;
+            }
+           
+            img{
+                width: 100%;
+                @media only screen and (max-width: 768px) {
+                    width: 100%;
+                    
+                }
+            }
+    
+            
+        }
+
+    }
+    #ourproduct{
+        padding-top: 10vh;
+
+        #ourproduction{
+
+            position: relative;
+    
+            margin: auto;
+            width: 75%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @media only screen and (max-width: 768px) {
+                flex-direction: column-reverse;
+                width: 100%;
+                padding-bottom: 36vh;
+    
+            
+            }
+            
+            }
+            h3{
+                font-family:'lato', sans-serif;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 39.5px;
+                
+            }
+            h5{
+                margin-top: 0%;
+                font-family: 'georgia',serif;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 78.5px;
+                color: green;
+            }
+            #lost{            
+                img{
+                    width: 100%;
+                    @media only screen and (max-width: 768px) {
+                        position: relative;
+                        
+                        
+                    }
+    
+                }
+                width: 45%;
+            }
+            #itachi{
+                width: 45%;
+                @media only screen and (max-width: 768px) {
+                    
+                    
+                    
+                }
+    
+            }
+            p{font-family: 'lato', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+    
+            }
+            #smallcard{
+                background-color: white ;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: absolute;
+                top: 58%;
+                @media only screen and (max-width: 768px) {
+                    top: 64%;
+                    left: 6%;
+                    width: 25%;
+                }
+                p{
+                    border-bottom: 1px solid black; 
+                    padding-bottom: 15%;
+                    font-family: 'lato',sans-serif;
+                    font-weight: 600;
+                    font-size: 14.49px;              
+                }
+                #one{
+                    background-color: lightseagreen;
+                    border-radius: 50%;
+                    img{
+                        width: fit-content;
+                        height: auto;
+                            border-radius: 50%;
+                            
+    
+                    }
+                
+                }
+                
+                #twelve{
+                    font-family: 'lato',sans-serif;
+                    font-weight: 400;
+                    font-size: 11.9px;
+                    line-height: 19px;
+                }
+                #forum{
+    
+                    font-family: 'georgia',serif;
+                    font-weight: 700;
+                    font-size: 15.9px;
+                    line-height: 25.01px;
+                    color: black;
+                }
+       }           
+    }
+
+
+    }
+
+    footer{
+        height: 65vh;
+        background-color: rgba(36, 88, 82, 1) ;
+        #rapidlinks{
+            height: 65vh;
+            margin: auto;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+
+            h3{
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 55px;
+                color: white;
+            }
+            ul{
+            padding-left: 0%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                a{
+                    font-family: 'lato',sans-serif;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 30px;
+                    text-decoration: none;
+                    color: white;
+                    
+                }
+
+            }
+
+            
+
+        }
+
+    }
+
+
+        
+        
+    
+
+
+   
+       
+      
+      
+  
+     
+
+    

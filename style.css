@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+}
+body .bouton {
+  background-color: rgb(1, 153, 109);
+  color: white;
+  padding: 0 50px;
+  border-radius: 4px;
+  height: 40px;
+  border: none;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+body header nav ul li {
+  display: flex;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav h1 {
+  color: rgb(1, 153, 109);
+}
+body header div a {
+  text-decoration: none;
+}
+body #hero {
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+body #heroinfos {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  body #heroinfos {
+    width: 80%;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+body #heroinfos #allinfos {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: 30%;
+  height: 75%;
+  flex-wrap: wrap;
+}
+body #heroinfos #allinfos h2 {
+  font-family: "georgia", serif;
+  font-size: 4em;
+  color: rgb(1, 153, 109);
+}
+body #howit #howitcont {
+  margin: 5% 10%;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  body #howit #howitcont {
+    width: 80%;
+    flex-direction: column;
+  }
+}
+body #howit #howitinfos {
+  width: 50%;
+}
+body #howit #spear {
+  width: 50%;
+}
+body #howit h4 {
+  margin-top: 0%;
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 79px;
+  color: rgb(1, 153, 109);
+}
+body #howit #cards {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  body #howit #cards {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
+body #howit .card {
+  width: 25%;
+  position: relative;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  body #howit .card {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body #howit .card .cardimg img {
+    width: 100%;
+    height: auto;
+  }
+}
+body #howit .card h5 {
+  text-align: center;
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  z-index: 0;
+}
+@media only screen and (max-width: 768px) {
+  body #howit .card h5 {
+    text-align: left;
+  }
+}
+body #howit .card p {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  min-height: 150px;
+}
+body #howit .card span {
+  font-family: "georgia", serif;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 225px;
+  color: rgba(1, 153, 109, 0.2);
+  position: absolute;
+  top: -11%;
+  z-index: -1;
+}
+body #testimonial {
+  height: 120vh;
+  background-color: rgb(36, 88, 82);
+}
+body #testimonial #testicont {
+  width: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+@media only screen and (max-width: 768px) {
+  body #testimonial #testicont {
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+  }
+}
+body #testimonial #testimonialleft {
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  body #testimonial #testimonialleft {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+body #testimonial #testimonialleft h5 {
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 79px;
+  color: white;
+}
+body #testimonial #testimonialleft p {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+  color: white;
+}
+body #testimonial #testimonialright {
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  body #testimonial #testimonialright {
+    width: 80%;
+    height: 100vh;
+  }
+}
+body #testimonial #testimonialright img {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  body #testimonial #testimonialright img {
+    width: 100%;
+  }
+}
+body #ourproduct {
+  padding-top: 10vh;
+}
+body #ourproduct #ourproduction {
+  position: relative;
+  margin: auto;
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  body #ourproduct #ourproduction {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-bottom: 36vh;
+  }
+}
+body #ourproduct h3 {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39.5px;
+}
+body #ourproduct h5 {
+  margin-top: 0%;
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 78.5px;
+  color: green;
+}
+body #ourproduct #lost {
+  width: 45%;
+}
+body #ourproduct #lost img {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  body #ourproduct #lost img {
+    position: relative;
+  }
+}
+body #ourproduct #itachi {
+  width: 45%;
+}
+body #ourproduct p {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+body #ourproduct #smallcard {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 58%;
+}
+@media only screen and (max-width: 768px) {
+  body #ourproduct #smallcard {
+    top: 64%;
+    left: 6%;
+    width: 25%;
+  }
+}
+body #ourproduct #smallcard p {
+  border-bottom: 1px solid black;
+  padding-bottom: 15%;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 14.49px;
+}
+body #ourproduct #smallcard #one {
+  background-color: lightseagreen;
+  border-radius: 50%;
+}
+body #ourproduct #smallcard #one img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  border-radius: 50%;
+}
+body #ourproduct #smallcard #twelve {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 11.9px;
+  line-height: 19px;
+}
+body #ourproduct #smallcard #forum {
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 15.9px;
+  line-height: 25.01px;
+  color: black;
+}
+
+footer {
+  height: 65vh;
+  background-color: rgb(36, 88, 82);
+}
+footer #rapidlinks {
+  height: 65vh;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+footer #rapidlinks h3 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: white;
+}
+footer #rapidlinks ul {
+  padding-left: 0%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+footer #rapidlinks ul li {
+  display: flex;
+  justify-content: space-between;
+}
+footer #rapidlinks ul a {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
